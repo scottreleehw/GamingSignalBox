@@ -54,7 +54,7 @@ The bot will then:
 
 ### 1. Clone and Setup Project
 ```bash
-git clone <repository-url>
+git clone https://github.com/scottreleehw/GamingSignalBox.git
 cd gaming-signal-bot
 uv init
 uv add discord.py python-dotenv

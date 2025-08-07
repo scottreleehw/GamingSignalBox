@@ -1,0 +1,14 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// WiFi credentials
+const char* ssid = "YOUR_WIFI_NAME";
+const char* password = "YOUR_WIFI_PASSWORD";
+
+// Discord configuration
+const char* webhook_url = "YOUR_WEBHOOK_URL_HERE";
+const char* bot_token = "YOUR_BOT_TOKEN_HERE";
+const char* channel_id = "YOUR_CHANNEL_ID_HERE";
+const char* device_name = "YOUR_DEVICE_NAME";
+
+#endif

@@ -145,8 +145,8 @@ Built-in LED on GPIO 2 (no wiring needed)
 In PlatformIO, install these libraries:
 - ArduinoJson (for Discord message parsing)
 
-#### 4. ESP32 Code Configuration
-Update these values in `src/main.cpp`:
+#### 4. Rename config.h.example to config.h
+Update these values in `src/config.cpp`:
 ```cpp
 // WiFi credentials
 const char* ssid = "YOUR_WIFI_NAME";

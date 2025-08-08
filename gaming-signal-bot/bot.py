@@ -2,7 +2,7 @@ import discord
 import os
 from dotenv import load_dotenv # type: ignore
 import json
-import aiofiles
+import aiofiles # type: ignore
 from pathlib import Path
 
 # Webhook storage file
